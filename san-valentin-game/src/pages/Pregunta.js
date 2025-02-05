@@ -4,7 +4,7 @@ import "./Pregunta.css";
 
 const Pregunta = () => {
   const navigate = useNavigate();
-  const [noPosition, setNoPosition] = useState({ top: "50%", left: "50%" });
+  const [noPosition, setNoPosition] = useState({ top: "52%", left: "50%" });
 
   const moveNoButton = () => {
     const randomX = Math.random() * 80 + 10; // Evita irse fuera de pantalla

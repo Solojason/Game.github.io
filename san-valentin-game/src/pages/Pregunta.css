@@ -18,7 +18,11 @@
   .buttons-container {
     margin-top: 30px;
     display: flex;
+    /*justify-content: center;*/
     gap: 20px;
+    animation: fadeIn 2s ease-in-out;
+    justify-content: space-between; /* Espacia los botones */
+    width: 300px; /* Ajusta el tamaño del contenedor */
   }
   
   .yes-btn,
@@ -34,6 +38,7 @@
   .yes-btn {
     background-color: #ff4d79;
     color: white;
+    position: relative;
   }
   
   .yes-btn:hover {
